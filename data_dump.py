@@ -11,6 +11,7 @@ COLLECTION_NAME = 'sensor'
 
 if __name__=="__main__":
     df = pd.read_csv(DATA_FILE_PATH)
+    
     #To count the number of rows and columns
     print(f"Rows an Columns : {df.shape}")
 
